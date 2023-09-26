@@ -12,6 +12,7 @@
             background-repeat: no-repeat;
             background-position: center top;
         }
+
         /* navbar selectors */
         .navbar {
             background-image: linear-gradient(to bottom, rgb(159, 228, 164), rgb(89, 152, 70));
@@ -33,9 +34,10 @@
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         .navbar a:hover {
-            background-color: #ddd;
+            background-color: rgb(206, 206, 206);
             color: black;
         }
+
         /* Logo selectors */
         .logo-link {
             display: block; 
@@ -47,6 +49,10 @@
             display: block;
             margin-left: 10px;
         }
+        .logo-link img:hover {
+            transform: scale(1.1);
+        }
+
         /* Donation header */
         .donation-title {
             font-size: 3em;
@@ -67,7 +73,7 @@
             height: 100%;
         }
         .donation-box {
-            background-color: #fff;
+            background-color: white;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px black;
@@ -103,6 +109,7 @@
             border-collapse: collapse;
             width: 100%;
         }
+
         /* table cells and headers */
         .table-container th, td {
             border: 1px solid black;
@@ -110,12 +117,13 @@
             text-align: left;
             background-color: white;
         }
+
         /* sticky footer */
         footer {
             position: fixed;
             flex-shrink: 0;
             background-image: linear-gradient(to bottom, rgb(176, 176, 176), gray);
-            color: #fff;
+            color: rgb(220, 220, 220);
             padding: 1rem;
             left: 0;
             bottom: 0;
@@ -131,9 +139,9 @@
         <a href="donate.html">Donate</a>
     </nav>
     <a href="index.html" class="logo-link">
-        <img src="logo.png" alt="UnitySphere Logo">
+        <img src="logo.jpg" alt="UnitySphere Logo">
     </a>
-    <h1 class="donation-title">Donate!</h1>
+    <h1 class="donation-title">Donate</h1>
     <div class="donation-message-container">
         At UnitySphere Charity, we believe in the power of unity and community to make a meaningful difference in the lives of those less fortunate. Every day, we witness the transformative impact of kindness, love, and shared resources. Yet, the path ahead is still long and filled with challenges. Your generous donation can light up this path, bringing hope and tangible aid to those in need. If you've ever wanted to touch a life, to make a real change, now is the time. Your contribution, no matter how small, has the potential to ripple outwards in ways you might not even imagine. Join us in this journey of compassion and let's build a better world, one act of generosity at a time.
     </div>
